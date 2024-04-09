@@ -1,0 +1,18 @@
+.container{
+    background-color: lightcoral;
+    padding: 30px;
+}
+label{
+    color: darkblue;
+    font-size: larger;
+}
+input{
+    width: 300px;
+}
+button{
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 20px;
+}

@@ -1,0 +1,18 @@
+
+        <div class="tasks">
+            <div class="task" *ngFor="let task of tasks; let i = index">
+                <h5>{{ task.title }}</h5>
+                <p>{{ task.description }}</p>
+                <button (click)="update(task)" id="update">Update</button>
+                <button (click)="deleteTask(task.id)">Delete</button>
+            </div>
+            <h5 *ngIf="tasks.length === 0" style="color: crimson;font-size: larger;">Please Add your Task!</h5>
+        </div>
+            <div class="add">
+                <h1>Add Your Task here</h1>
+                <label>Title:</label>
+                <input id="newTitle" #newTitle required><br>
+                <label for="newDescription">Description:</label>
+                <input id="newDescription" #newDescription required><br> 
+                <button type="button" (click)="addTask(newTitle.value, newDescription.value); newTitle.value=''; newDescription.value='';">Add</button>
+        </div>

@@ -1,0 +1,48 @@
+.tasks{
+   background-color: lightgoldenrodyellow;
+   padding: 5px;
+margin: 20px;}
+
+.task h5{
+    color: brown;
+    font-size: x-large;
+    font-weight: 100px;  
+}
+.task p{
+    color: blueviolet;
+    font-size: larger;
+}
+.task button {
+    width: 150px;
+    height: 30px;
+    background-color: lightseagreen;
+    border: none;
+    margin-right: 10px;
+    color: aliceblue;
+}
+.add{
+    background-color: lightskyblue;
+    padding: 30px;
+    margin: 20px;
+}
+.add h1{
+    color: brown;
+}
+.add label{
+    color: blueviolet;
+    font-size: larger;
+    margin-top: 3px;
+}
+input #newTitle{
+    margin-left: 100px;
+}
+input #newDescription{
+    margin-left: 100px;
+}
+.add button{
+  background-color: cadetblue;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  margin-top: 10px;
+}
